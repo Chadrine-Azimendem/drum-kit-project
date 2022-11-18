@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap");
 body {
   font-family: "Roboto Slab", serif;
+  background-image: url("./sounds/sounds/images/pexels-dayvison-de-oliveira-silva-5723584.jpg");
 }
 .wrapper {
   display: flex;
@@ -15,6 +16,7 @@ body {
   margin: 4rem auto;
   border: 2px solid #ccc;
   background-color: #1d292e;
+  border-radius: 1rem;
 }
 
 .key-btn {
@@ -31,7 +33,7 @@ body {
   border-radius: 0.7rem;
   background-color: #1d292e;
   color: rgb(195 88 88);
-  box-shadow: 8px -11px rgb(168 218 220);
+  box-shadow: 8px -11px rgb(67 95 96);
 }
 
 .key-btn:hover {
