@@ -14,6 +14,7 @@ body {
   padding: 2rem;
   margin: 4rem auto;
   border: 2px solid #ccc;
+  background-color: #1d292e;
 }
 
 .key-btn {
@@ -28,18 +29,23 @@ body {
   font-size: 1.3rem;
   font-weight: 700;
   border-radius: 0.7rem;
-  background-color: rgb(168, 218, 220);
-  color: rgb(0, 0, 0);
+  background-color: #1d292e;
+  color: rgb(195 88 88);
   box-shadow: 8px -11px rgb(168 218 220);
 }
 
 .key-btn:hover {
   color: #e63946;
   cursor: pointer;
-  background-color: #a8dadc;
+  background-color: #7d9a9b;
 }
 
 .key-btn:active {
   box-shadow: none;
-  background-color: chartreuse;
+  background: rgb(199, 15, 15);
+  background: radial-gradient(
+    circle,
+    rgba(199, 15, 15, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
